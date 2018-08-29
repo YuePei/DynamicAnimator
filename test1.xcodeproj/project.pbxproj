@@ -13,6 +13,14 @@
 		9F7A3C0121352A00006281A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A3C0021352A00006281A7 /* Assets.xcassets */; };
 		9F7A3C0421352A00006281A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A3C0221352A00006281A7 /* LaunchScreen.storyboard */; };
 		9F7A3C0721352A00006281A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A3C0621352A00006281A7 /* main.m */; };
+		9F7A3C0F213533F7006281A7 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A3C0D213533F7006281A7 /* UIView+CornerRadius.m */; };
+		9FFAEB01213639FF0097CAF6 /* UIView+Removable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB00213639FF0097CAF6 /* UIView+Removable.m */; };
+		9FFAEB0521364A160097CAF6 /* AttachmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB0421364A160097CAF6 /* AttachmentVC.m */; };
+		9FFAEB0D213652170097CAF6 /* GravityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB0C213652170097CAF6 /* GravityVC.m */; };
+		9FFAEB10213670540097CAF6 /* CollisionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB0F213670540097CAF6 /* CollisionVC.m */; };
+		9FFAEB13213672020097CAF6 /* PushVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB12213672020097CAF6 /* PushVC.m */; };
+		9FFAEB16213673160097CAF6 /* SnapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB15213673160097CAF6 /* SnapVC.m */; };
+		9FFAEB1A213676710097CAF6 /* AllVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAEB19213676710097CAF6 /* AllVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		9F7A3C0321352A00006281A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7A3C0521352A00006281A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7A3C0621352A00006281A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F7A3C0D213533F7006281A7 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		9F7A3C0E213533F7006281A7 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		9FFAEAFF213639FF0097CAF6 /* UIView+Removable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Removable.h"; sourceTree = "<group>"; };
+		9FFAEB00213639FF0097CAF6 /* UIView+Removable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Removable.m"; sourceTree = "<group>"; };
+		9FFAEB0321364A160097CAF6 /* AttachmentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttachmentVC.h; sourceTree = "<group>"; };
+		9FFAEB0421364A160097CAF6 /* AttachmentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachmentVC.m; sourceTree = "<group>"; };
+		9FFAEB0B213652170097CAF6 /* GravityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityVC.h; sourceTree = "<group>"; };
+		9FFAEB0C213652170097CAF6 /* GravityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityVC.m; sourceTree = "<group>"; };
+		9FFAEB0E213670540097CAF6 /* CollisionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollisionVC.h; sourceTree = "<group>"; };
+		9FFAEB0F213670540097CAF6 /* CollisionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollisionVC.m; sourceTree = "<group>"; };
+		9FFAEB11213672020097CAF6 /* PushVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushVC.h; sourceTree = "<group>"; };
+		9FFAEB12213672020097CAF6 /* PushVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushVC.m; sourceTree = "<group>"; };
+		9FFAEB14213673160097CAF6 /* SnapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapVC.h; sourceTree = "<group>"; };
+		9FFAEB15213673160097CAF6 /* SnapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapVC.m; sourceTree = "<group>"; };
+		9FFAEB18213676710097CAF6 /* AllVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllVC.h; sourceTree = "<group>"; };
+		9FFAEB19213676710097CAF6 /* AllVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,13 @@
 				9F7A3BF821352A00006281A7 /* AppDelegate.m */,
 				9F7A3BFA21352A00006281A7 /* ViewController.h */,
 				9F7A3BFB21352A00006281A7 /* ViewController.m */,
+				9FFAEB172136763A0097CAF6 /* All */,
+				9FFAEB0A21364C900097CAF6 /* tool */,
+				9FFAEB0921364C740097CAF6 /* push */,
+				9FFAEB0821364C680097CAF6 /* snap */,
+				9FFAEB0721364C590097CAF6 /* collision */,
+				9FFAEB0621364C480097CAF6 /* gravity */,
+				9FFAEB02213649F70097CAF6 /* attachmentBehavior */,
 				9F7A3BFD21352A00006281A7 /* Main.storyboard */,
 				9F7A3C0021352A00006281A7 /* Assets.xcassets */,
 				9F7A3C0221352A00006281A7 /* LaunchScreen.storyboard */,
@@ -69,6 +100,71 @@
 				9F7A3C0621352A00006281A7 /* main.m */,
 			);
 			path = test1;
+			sourceTree = "<group>";
+		};
+		9FFAEB02213649F70097CAF6 /* attachmentBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB0321364A160097CAF6 /* AttachmentVC.h */,
+				9FFAEB0421364A160097CAF6 /* AttachmentVC.m */,
+			);
+			path = attachmentBehavior;
+			sourceTree = "<group>";
+		};
+		9FFAEB0621364C480097CAF6 /* gravity */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB0B213652170097CAF6 /* GravityVC.h */,
+				9FFAEB0C213652170097CAF6 /* GravityVC.m */,
+			);
+			path = gravity;
+			sourceTree = "<group>";
+		};
+		9FFAEB0721364C590097CAF6 /* collision */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB0E213670540097CAF6 /* CollisionVC.h */,
+				9FFAEB0F213670540097CAF6 /* CollisionVC.m */,
+			);
+			path = collision;
+			sourceTree = "<group>";
+		};
+		9FFAEB0821364C680097CAF6 /* snap */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB14213673160097CAF6 /* SnapVC.h */,
+				9FFAEB15213673160097CAF6 /* SnapVC.m */,
+			);
+			path = snap;
+			sourceTree = "<group>";
+		};
+		9FFAEB0921364C740097CAF6 /* push */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB11213672020097CAF6 /* PushVC.h */,
+				9FFAEB12213672020097CAF6 /* PushVC.m */,
+			);
+			path = push;
+			sourceTree = "<group>";
+		};
+		9FFAEB0A21364C900097CAF6 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A3C0E213533F7006281A7 /* UIView+CornerRadius.h */,
+				9F7A3C0D213533F7006281A7 /* UIView+CornerRadius.m */,
+				9FFAEAFF213639FF0097CAF6 /* UIView+Removable.h */,
+				9FFAEB00213639FF0097CAF6 /* UIView+Removable.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		9FFAEB172136763A0097CAF6 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAEB18213676710097CAF6 /* AllVC.h */,
+				9FFAEB19213676710097CAF6 /* AllVC.m */,
+			);
+			path = All;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFAEB01213639FF0097CAF6 /* UIView+Removable.m in Sources */,
+				9FFAEB1A213676710097CAF6 /* AllVC.m in Sources */,
+				9FFAEB0521364A160097CAF6 /* AttachmentVC.m in Sources */,
 				9F7A3BFC21352A00006281A7 /* ViewController.m in Sources */,
+				9FFAEB13213672020097CAF6 /* PushVC.m in Sources */,
+				9F7A3C0F213533F7006281A7 /* UIView+CornerRadius.m in Sources */,
 				9F7A3C0721352A00006281A7 /* main.m in Sources */,
+				9FFAEB10213670540097CAF6 /* CollisionVC.m in Sources */,
 				9F7A3BF921352A00006281A7 /* AppDelegate.m in Sources */,
+				9FFAEB16213673160097CAF6 /* SnapVC.m in Sources */,
+				9FFAEB0D213652170097CAF6 /* GravityVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Peyton.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Peyton.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
